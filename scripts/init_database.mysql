@@ -1,0 +1,10 @@
+-- Create DataWarehouse -- 
+
+Create Database DataWarehouse;
+
+-- Create Schemas --
+-- In Mysql schemas dont exist. So basically it is an alternate db that you have to create -- 
+Create Schema bronze;
+Create Schema silver;
+Create Schema gold;
+Drop database DataWarehouse;
